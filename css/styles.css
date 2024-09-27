@@ -1,0 +1,65 @@
+header {
+    background-image: url("../images/bar.webp");
+    background-size: cover; /* L'image couvre toute la surface de l'en-tête */
+    background-position: top 50%;
+    background-repeat: no-repeat; /* Pas de répétition de l'image d'arrière-plan */
+}
+
+.container-title {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;    /* Centre verticalement */
+    height: 200px;          /* Hauteur de la fenêtre */
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 60px;
+}
+
+body {
+  background-color: black;
+  /* Le fond de la page sera noir */
+  color: white;
+  /* Le texte de la page sera blanc */
+  margin: 1 em;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.neutral{
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.neutral li{
+    font-weight: bold;
+    
+    color : rgb(231, 185, 19);
+}
+
+.p{
+    padding-left: 1px;
+}
+hr {
+  height: 2px;
+  /* Définit la hauteur de la ligne */
+  background-color: white;
+  /* Définit la couleur de la ligne */
+  border: none;
+  /* Supprime les bordures par défaut */
+  margin: 1em 0;
+  /* Ajoute une marge autour de la ligne (facultatif) */
+  opacity: 1;
+  /* La ligne n'est plus transparente */
+}
+
+.ul.li{
+    text-decoration: none;
+}
