@@ -5,19 +5,17 @@ header {
     background-repeat: no-repeat; /* Pas de répétition de l'image d'arrière-plan */
 }
 
-.container-title {
+#hero {
     display: flex;
     justify-content: center; /* Centre horizontalement */
     align-items: center;    /* Centre verticalement */
     height: 200px;          /* Hauteur de la fenêtre */
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
-h1{
+#title{
+    font-family: "Dancing Script", cursive;
     font-size: 60px;
+    text-shadow: 0px 0px 4px black;
 }
 
 body {
@@ -40,24 +38,16 @@ body {
 
 .neutral li{
     font-weight: bold;
-    
     color : rgb(231, 185, 19);
 }
 
 .p{
     padding-left: 1px;
 }
-hr {
-  height: 2px;
-  /* Définit la hauteur de la ligne */
-  background-color: white;
-  /* Définit la couleur de la ligne */
-  border: none;
-  /* Supprime les bordures par défaut */
-  margin: 1em 0;
-  /* Ajoute une marge autour de la ligne (facultatif) */
-  opacity: 1;
-  /* La ligne n'est plus transparente */
+
+h2{
+    padding: 10px;
+    border-bottom: 2px solid white;
 }
 
 .ul.li{
